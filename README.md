@@ -7,7 +7,8 @@ A shell script which helps to install following tools:
 
 # How to install
 
-Simply run `sh -c "$(wget -O- https://raw.githubusercontent.com/hiberabyss/k8s-tools/master/install.sh)"`
+Simply run `sh -c "$(wget -O- https://raw.githubusercontent.com/hiberabyss/k8s-tools/master/install.sh)"`.
+May need to `source ~/.bashrc` or `source ~/.zshrc`
 
 # How to use
 
