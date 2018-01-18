@@ -11,4 +11,4 @@ Simply run `sh -c "$(wget -O- https://raw.githubusercontent.com/hiberabyss/k8s-t
 
 # How to use
 
-[Here](http://hiberabyss.github.io/2018/01/18/kubectl-tips/) is a chinese blog about how to use it.
+[Here](http://hiberabyss.github.io/2018/01/18/kubectl-tips/) is a blog written in Chinse about how to use it.
