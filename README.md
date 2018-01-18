@@ -8,3 +8,7 @@ A shell script which helps to install following tools:
 # How to install
 
 Simply run `sh -c "$(wget -O- https://raw.githubusercontent.com/hiberabyss/k8s-tools/master/install.sh)"`
+
+# How to use
+
+[Here](http://hiberabyss.github.io/2018/01/18/kubectl-tips/) is a chinese blog about how to use it.
