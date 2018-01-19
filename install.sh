@@ -24,7 +24,7 @@ do_exist() {
 
 install_kubectl() {
     kubectl_bin="$1"
-    sudo wget -O $kubectl_bin "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl"
+    sudo wget -qO $kubectl_bin "https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl"
     sudo chmod +x $kubectl_bin
 }
 
@@ -56,6 +56,7 @@ main() {
     get_file "https://raw.githubusercontent.com/ahmetb/kubectx/master/kubens" kns
     get_file "https://raw.githubusercontent.com/ahmetb/kubectx/master/kubectx" kctx
     get_file "https://raw.githubusercontent.com/hiberabyss/dotfiles/master/link/bin/kexe" kexe
+    get_file "https://raw.githubusercontent.com/hiberabyss/dotfiles/master/link/bin/kget" kget
     get_file "https://raw.githubusercontent.com/ahmetb/kubectx/master/utils.bash" utils.bash
 }
 
