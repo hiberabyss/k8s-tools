@@ -33,6 +33,10 @@ precheck() {
         sudo yum install -y git
     fi
 
+    if ! do_exist zsh; then
+        sudo yum install -y zsh
+    fi
+
     if ! do_exist kubectl; then
         install_kubectl /usr/local/bin/kubectl
     fi
