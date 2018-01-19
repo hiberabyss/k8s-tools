@@ -45,7 +45,7 @@ precheck() {
 get_file() {
     url="$1"
     filename="$2"
-    wget -O "$dest_dir/$filename" $url
+    wget -qO "$dest_dir/$filename" $url
     chmod +x $dest_dir/$filename
 }
 
